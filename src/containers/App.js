@@ -25,7 +25,7 @@ class App extends Component {
           <Route path='/movies' render={routerProps => <MoviesPage {...routerProps} movies={this.state.movies}/>} />
         </div>
       </Router>
-    );
+    );  
   }
 }
 
